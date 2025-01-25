@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  animation-name: watch_ani;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: 5;
+  position: relative;
+  top: 250px;
+  left: 500px;
+}
+@keyframes watch_ani {
+  0% {
+    transform: translateY(-250px);
+  }
+  20% {
+    transform: translateY(20px);
+  }
+  40% {
+    transform: translateY(10px);
+  }
+
+  60% {
+    transform: translateY(40px);
+  }
+  80% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(40px);
+  }
+}

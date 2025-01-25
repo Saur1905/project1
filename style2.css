@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.road img {
+  height: 80vh;
+  width: 200%;
+  background-color: black;
+  position: relative;
+  top: 0px;
+  animation-name: rode_start;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+}
+@keyframes rode_start {
+  0% {
+    right: 100%;
+  }
+  50%{opacity:1;}
+  80%{opacity:0.2;}
+  85%{opacity:0.5;}
+  90%{opacity:0.2;}
+  100% {
+    right: 0%;
+    opacity:1;
+  }
+}
+.car_animation1 .car img {
+  height: 100px;
+  width: 245px;
+  animation-name: Car_start;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 405px;
+  left: 250px;
+  background-repeat: no-repeat;
+}
+@keyframes Car_start {
+  0% {
+    transform: translateY(2px);
+  }
+  10% {
+    transform: translateY(5px);
+  }
+
+  30% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  70% {
+    transform: translateY(0px);
+  }
+  85% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(2px);
+  }
+}
+
+.wheel11 img {
+  top: 467px;
+  left: 423px;
+  height: 40px;
+  width: 40px;
+  animation-name: wheel_start1;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+}
+
+.wheel12 img {
+  top: 467px;
+  left: 273px;
+  height: 40px;
+  width: 40px;
+  animation-name: wheel_start1;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+}
+@keyframes wheel_start1 {
+  0% {
+    /* transform: translate(0px,0deg); */
+    transform: rotate(0deg);
+  }
+
+  100% {
+    /* transform: translate(180deg,0deg); */
+    transform: rotate(180deg);
+  }
+}
+
+.car_animation2 .car img {
+  height: 100px;
+  width: 245px;
+  animation-name: Car_start;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  top: 450px;
+  left: 850px;
+  background-repeat: no-repeat;
+}
+@keyframes Car_start {
+  0% {
+    transform: translateY(2px);
+  }
+  10% {
+    transform: translateY(5px);
+  }
+
+  30% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  70% {
+    transform: translateY(0px);
+  }
+  85% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translateY(2px);
+  }
+}
+
+.wheel21 img {
+  top: 510px;
+  left: 1023px;
+  height: 40px;
+  width: 40px;
+  animation-name: wheel_start;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+}
+
+.wheel22 img {
+  top: 510px;
+  left: 873px;
+  height: 40px;
+  width: 40px;
+  animation-name: wheel_start;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  position: absolute;
+  background-repeat: no-repeat;
+}
+@keyframes wheel_start {
+  0% {
+    /* transform: translate(0px,0deg); */
+    transform: rotate(0deg);
+  }
+
+  100% {
+    /* transform: translate(180deg,0deg); */
+    transform: rotate(180deg);
+  }
+}
+.cloud_man img {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: -5px;
+  left: 1220px;
+
+  animation-name: cloud_man;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  /* animation-direction:alternate ; */
+}
+
+@keyframes cloud_man {
+  0% {
+    transform: translateY(-70px);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  90% {
+    transform: translateY(80px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.thonder img {
+  height: 200px;
+  width: 50px;
+
+  position: absolute;
+  top: 190px;
+  left: 1150px;
+  transform: rotate(30deg);
+  animation-name: thonder;
+  animation-duration: 6.5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+@keyframes thonder {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.5;
+    transform: translate(0px, 0px);
+  }
+
+  60% {
+    transform: rotate(60deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: translate(-100px, 110px);
+    opacity: 0.2;
+  }
+  95% {
+    transform: translate(-100px, 100px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(-100px, 120px);
+    opacity: 0.2;
+  }
+}
+
+.thonder2 img {
+  height: 200px;
+  width: 50px;
+
+  position: absolute;
+  top: 180px;
+  left: 1150px;
+  transform: rotate(60deg);
+  animation-name: thonder2;
+  animation-duration: 7s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+@keyframes thonder2 {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: translate(0px, 0px);
+  }
+
+  60% {
+    transform: rotate(90deg);
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-700px, 110px);
+    opacity: 1;
+  }
+
+  80% {
+    transform: translate(-700px, 110px);
+    opacity: 0.2;
+  }
+  95% {
+    transform: translate(-700px, 100px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(-700px, 120px);
+    opacity: 0.2;
+  }
+}
