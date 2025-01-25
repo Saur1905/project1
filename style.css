@@ -72,31 +72,10 @@ nav a {
     transform: translate(0px);
   }
 }
- .Headding{
- margin-top: -80px;
- color: rgb(250, 210, 160);
-
-} 
-/* .Headding {
-  position: relative;
-  top: -880px;
-  left: 800px;
-  width: 400px;
-  color: bisque;
-  animation: Hani;
-  animation-iteration-count: 2;
-  animation-duration: 3s;
-  z-index: 100;
+.Headding {
+  margin-top: -80px;
+  color: rgb(250, 210, 160);
 }
-@keyframes Hani {
-  from {
-    transform: translatey(-10px);
-  }
-  to {
-    transform: translatey(320px);
-  }
-} */
-
 .Headding h1 {
   font-size: 48px;
 }
@@ -113,7 +92,6 @@ nav a {
 }
 
 .Headding button:hover {
-  background-color: rgb(228, 188, 139);
   color: rgb(2, 80, 2);
   font-size: 22px;
   font-weight: bold;
@@ -365,7 +343,6 @@ nav a {
   left: 180px;
 }
 .cycles3 img:hover {
-
   position: relative;
   left: 220px;
   transition: all 2s;
