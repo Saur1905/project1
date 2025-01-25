@@ -1,6 +1,6 @@
 * {
   padding: 0;
-  margin-top: 0;
+  margin-top: 0 auto;
   box-sizing: border-box;
 }
 header {
@@ -24,6 +24,9 @@ nav a {
   font-family: sans-serif;
   height: 65vh;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10rem;
 }
 
 .body {
@@ -69,7 +72,12 @@ nav a {
     transform: translate(0px);
   }
 }
-.Headding {
+ .Headding{
+ margin-top: -80px;
+ color: rgb(250, 210, 160);
+
+} 
+/* .Headding {
   position: relative;
   top: -880px;
   left: 800px;
@@ -87,7 +95,7 @@ nav a {
   to {
     transform: translatey(320px);
   }
-}
+} */
 
 .Headding h1 {
   font-size: 48px;
@@ -402,7 +410,6 @@ nav a {
   height: 40px;
   border-radius: 10px;
   border: none;
-
   background-color: rgb(228, 188, 139);
   color: black;
   font-size: 18px;
