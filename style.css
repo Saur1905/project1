@@ -15,7 +15,7 @@ header {
   text-align: center;
   position: fixed;
   padding-inline: 10px;
-  background-color: rgb(161, 197, 215); 
+  background-color: rgb(161, 197, 215);
   z-index: 1;
 }
 header a {
@@ -27,7 +27,6 @@ header a {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 @media (max-width: 425px) {
-
   header a {
     font-size: 16px;
   }
@@ -187,14 +186,12 @@ button {
   section {
     display: flex;
     flex-direction: column;
-   
   }
   .section1 {
     font-size: 20px;
     margin-top: -150px;
     width: 350px;
-    text-align:end;
-    
+    text-align: end;
   }
 }
 .body1 h1 {
@@ -218,14 +215,31 @@ button {
   width: 650px;
 }
 @media (max-width: 425px) {
-  .description_img p{
+  .description_img p {
     width: 300px;
   }
+}
+.Read_More {
+  display: flex;
+  justify-content: center;
 }
 footer {
   background-color: cadetblue;
 }
-.footer_main{display: flex;
-justify-content: space-between;
-padding-inline: 10px;}
-
+.footer_main {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 10px;
+}
+.map iframe {
+  border: 1px solid red;
+  width: 400px;
+  height: 400px;
+}
+@media (max-width: 425px) {
+  .map iframe {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+  }
+}
